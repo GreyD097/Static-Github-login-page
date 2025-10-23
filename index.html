@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github登录页</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main>
+        <!-- 标题 -->
+        <div class="title">
+            <img src="imgs/GitHub.svg">
+            <h3>Sign in to GitHub</h3>
+        </div>
+        
+        <!-- 表单 -->
+        <form method="post" action="#">
+            <label for="user">Username or email address</label>
+            <input type="text" id="user" name="user" required>
+
+            <div class="form-row">
+                <label for="pwd">Password</label>
+                <a href="#" target="_blank">Forgot password?</a>
+            </div>
+            <input type="password" id="pwd" name="pwd" required>
+
+            <button class="submit-btn" type="submit">Sign in</button>
+        </form>
+
+        <!-- 分割线 -->
+        <div class="divider">
+            <span>or</span>
+        </div>
+
+        <!-- 其他登录按钮 -->
+        <button class="group-btn" onclick="">
+            <img src="imgs/谷歌.svg">
+            <span>Continue with Google</span>
+        </button>
+        <button class="group-btn" onclick="">
+            <img src="imgs/苹果.svg">
+            <span>Continue with Apple</span>
+        </button>
+
+        <!-- 注册链接 -->
+        <div class="inf">
+            <div>
+                New to GitHub?
+                <a href="#" target="_blank">Create an account</a>
+            </div>
+            <a href="#" target="_blank">Sign in with a passkey</a>
+        </div>
+    </main>
+    
+    <!-- 页脚 -->
+    <footer>
+        <a href="#" target="_blank">Terms</a>
+        <a href="#" target="_blank">Privacy</a>
+        <a href="#" target="_blank">Docs</a>
+        <a href="#" target="_blank">Contact GitHub Support</a>
+        <a href="#" target="_blank">Manage cookies</a>
+        <a href="#" target="_blank">Do not share my personal information</a>
+    </footer>
+</body>
+</html>
